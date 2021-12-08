@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+body {
+  background-color: #f6f6f1;
+  font-family: "Manrope", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.bg-tersier {
+  background-color: #f0f0e4;
+}
+
+.bg-forth {
+  background-color: #e8e8d8;
+}
+
+.tc-pink {
+  color: #fa7b6a;
+}
+
+.bg-purple {
+  background-color: #5c43f5;
+}

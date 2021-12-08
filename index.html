@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>
       Monochore — An Black & White Themes with Illustrations Bootstrap 5
       Template
     </title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand fw-bold" href="#">monochore.</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,10 +39,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <a class="nav-link" href="#">|</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -50,153 +56,148 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Pages
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Auth</a></li>
+                <li><a class="dropdown-item" href="#">HTTP Error Codes</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Home (2)</a>
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          <a href="#" class="btn bg-purple text-white me-4 py-2 px-4 fw-bold"
+            >Build Your Website</a
+          >
+          <a href="#" class="text-decoration-none text-dark">Login</a>
         </div>
       </div>
     </nav>
 
-    <main class="container">
-      <section>
+    <main>
+      <section class="container">
         <div class="row my-5">
           <div class="col-md-6 my-auto">
-            <h1>Finally, the life insurance we’ve all been wyshing for</h1>
-            <p>
-              Term life insurance tailored to you. 100% online. Starting at
-              $9/mo.
+            <h1 class="mb-3 display-4 fw-bold">
+              Make a website just like solving a puzzle
+              <span class="tc-pink">fast and easy</span>
+            </h1>
+            <p class="mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              totam quam ex a mollitia nihil neque esse sed, quod enim facere?
+              Expedita
             </p>
-            <a href="#" class="btn btn-primary">Build ur wishes</a>
+            <a href="#" class="btn bg-purple text-white py-2 px-4 fw-bold mb-2"
+              >Build your website</a
+            >
             <small class="d-block mt-2"
               >Find out how much protection you need today.
             </small>
           </div>
           <div class="col-md-6">
             <img
-              src="images/illustrations/pixeltrue/pixeltrue-welcome.png"
+              src="images/illustrations/pixeltrue/pixeltrue-web-development.png"
               class="img-fluid"
             />
           </div>
         </div>
       </section>
-      <section>
-        <div class="row my-5 py-5 text-center">
-          <h1>What are your unique after-life Wyshes?</h1>
-          <p>
-            Personalize exactly what you want protected if you were to die
-            unexpectedly.
-          </p>
-          <div class="row mt-5">
-            <div class="col-3">
-              <div class="card">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+      <section class="bg-tersier">
+        <div class="container">
+          <div class="row py-5 text-center">
+            <h1>Have an idea for your next projects startup?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row mt-5">
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-3">
-              <div class="card">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-3">
-              <div class="card">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-3">
-              <div class="card">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
                 </div>
+              </div>
+              <div class="col-4 mx-auto my-5">
+                <a href="#" class="btn btn-primary px-4">Build Yours Now</a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div class="row my-5 py-5">
-          <div class="col-4 mx-auto">
-            <h3>Sign up in 9-ish minutes!</h3>
-            <p>
-              No medical exams. No commitments until you’re ready. Just instant
-              coverage.
-            </p>
-            <a href="#" class="btn btn-primary">test</a>
-            <small class="d-block">plan start ba aks</small>
-          </div>
-          <div class="col-4 mx-auto">
-            <ol>
-              <li>apa aja test</li>
-              <li>apa aja test</li>
-              <li>apa aja test</li>
-              <li>apa aja test</li>
-            </ol>
+      <section class="bg-forth">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-12 text-center my-auto mx-auto">
+              <h1>Lets get started with us!</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium odit quas
+              </p>
+              <a href="#" class="btn bg-purple text-white px-4 py-2"
+                >Get Started</a
+              >
+              <small class="d-block mt-3">plan start ba aks</small>
+            </div>
           </div>
         </div>
       </section>
-      <section>
+      <section class="container">
         <div class="row my-5 py-5">
           <div class="col-6 my-auto">
-            <h1>Cover everything that matters to you with Wyshes</h1>
+            <h1>First featured content with description and right images</h1>
             <p>
-              Use our Wysh Builder to work out the exact life insurance coverage
-              you need, no more and no less.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+              necessitatibus qui porro! Corporis pariatur illo cum at, illum
+              odio iure,
             </p>
             <a href="#">learn more</a>
           </div>
@@ -208,7 +209,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="container">
         <div class="row my-5 py-5">
           <div class="col-6">
             <img
@@ -217,22 +218,24 @@
             />
           </div>
           <div class="col-6 my-auto">
-            <h1>Cover everything that matters to you with Wyshes</h1>
+            <h1>First featured content with description and right images</h1>
             <p>
-              Use our Wysh Builder to work out the exact life insurance coverage
-              you need, no more and no less.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+              necessitatibus qui porro! Corporis pariatur illo cum at, illum
+              odio iure,
             </p>
             <a href="#">learn more</a>
           </div>
         </div>
       </section>
-      <section>
+      <section class="container">
         <div class="row my-5 py-5">
           <div class="col-6 my-auto">
-            <h1>Cover everything that matters to you with Wyshes</h1>
+            <h1>First featured content with description and right images</h1>
             <p>
-              Use our Wysh Builder to work out the exact life insurance coverage
-              you need, no more and no less.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+              necessitatibus qui porro! Corporis pariatur illo cum at, illum
+              odio iure,
             </p>
             <a href="#">learn more</a>
           </div>
@@ -244,7 +247,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="container">
         <div class="row my-5 py-5">
           <span class="text-center my-3">
             <h1>Still a lil confused?</h1>
@@ -424,25 +427,6 @@
                     application.
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="my-5 py-5 bg-primary p-4 rounded">
-          <div class="row align-items-center">
-            <div class="col-lg-7 text-white">
-              <div>
-                <h3 class="fw-bold">Want to know more about us?</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-                  rerum blanditiis consequuntur laboriosam velit, cum doloremque
-                  accusamus tenetur ipsa laudantium
-                </p>
-                <a href="#" class="text-white"
-                  >Contact us &nbsp; <i class="fas fa-arrow-right fs-14"></i>
-                </a>
               </div>
             </div>
           </div>
