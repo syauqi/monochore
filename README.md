@@ -29,7 +29,7 @@
 
 <p></p>
 
-<h2 id="about">🔲 About Corofight</h2>
+<h2 id="about">🔲 About Monochore</h2>
 A free open-source website template and production ready to start your startup website easily and blazingly fast by just changing the assets and text
 
 <p></p>
@@ -46,7 +46,7 @@ To run this application or web, at least one web browser is installed on your co
 
 ```bash
 # Clone this repository or download in
-$ git clone https://github.com/syauqi/corofight.git
+$ git clone https://github.com/syauqi/monochore.git
 
 # Double click the index.html in monochore folder or open folder in visual studio code or another IDE you use to edit it!
 
@@ -54,7 +54,7 @@ $ git clone https://github.com/syauqi/corofight.git
 
 <p></p>
 
-<h2 id="dukungan">💌 Support</h2>
+<h2 id="support">💌 Support</h2>
 
 You guys can support me on the tracteer platform! Your support will be very helpful for me, but with you this star project has also been very helpful, you know!
 
@@ -64,7 +64,7 @@ You guys can support me on the tracteer platform! Your support will be very help
 
 <p></p>
 
-<h2 id="kontribusi">🤝 Contribution</h2>
+<h2 id="contribution">🤝 Contribution</h2>
 
 I really appreciate contributions, issues and feature requests because this application is far from perfect. Feel free to pull requests and make changes to this project.
 
@@ -72,7 +72,7 @@ Since I finished this project myself, but there are many features and many thing
 
 <p></p>
 
-<h2 id="lisensi">📝 License</h2>
+<h2 id="license">📝 License</h2>
 
 - Copyright © 2022 SYAUQIZAIDAN KHAIRAN KHALAF
 - Monochore is an open-source web application licensed under the MIT license
